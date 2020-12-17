@@ -1,9 +1,3 @@
-body.no-scroll {
-   height: 100%;
-   width: 100%;
-   position: fixed;
-   overflow: hidden;
-}
 body {
     font-family: arial;
     margin: 0;
@@ -99,6 +93,7 @@ header {
     }
     body.lock {
         overflow: hidden;
+	position: fixed;
     }
     .fa-bars {
         font-size: 30px;
