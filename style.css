@@ -336,7 +336,7 @@ header {
     .razdel {
         width: 100%;
         text-align: center;
-        margin: 0px 15px 0px 15px;
+        
     }
     #iconContent3 {
         margin-top: 60px;
@@ -344,7 +344,9 @@ header {
 }
 .content3 {
     padding: 120px 20px 120px 20px;
-    
+}
+.content3 .iconify {
+    margin-bottom: 20px;
 }
 .content3Zagolovok {
     margin: auto;
@@ -462,9 +464,7 @@ header {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    
 }
-
 .otzivText {
     line-height: 2;
 }
@@ -498,6 +498,10 @@ header {
     padding: 15px 45px 15px 45px;
     background-color: #181818;
 }
+.blockStars {
+    margin-bottom: 20px;
+}
+
 /* --------------------------------------FOOTER----------------------------------------- */
 
 footer {
